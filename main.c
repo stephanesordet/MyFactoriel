@@ -7,10 +7,12 @@ int factorial(int f) {
     }
     return (f * factorial((f-1)));
 }
-
 int main()
 {
+    int b;
     int fact=4;
     printf("%d! = %d \n", fact, factorial(fact));
     return 0;
 }
+
+
