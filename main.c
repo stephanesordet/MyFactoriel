@@ -3,17 +3,19 @@
 
 int factorial(int f) {
     int total = f;
-    for (int i=f-1;i>0;i--) {
-        total = total * i;
+    if (f == 1){
+        return 1;
     }
-    return total;
+        return (f * factorial((f-1)));
+
+
 }
 //Commentaire pour nouvelle branche
 int main()
 {
     int fact=4;
     int total=fact;
-    for (int i=f-1;i>0;i--) {
+    for (int i=fact-1;i>0;i--) {
     total = total * i;
     }
     printf("%d! = %d \n", fact, factorial(fact));
