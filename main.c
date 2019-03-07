@@ -7,7 +7,7 @@ int factorial(int f) {
     }
     return (f * factorial((f-1)));
 }
-
+//Commentaire pour nouvelle branche
 int main()
 {
     int fact=4;
